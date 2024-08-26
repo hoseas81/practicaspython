@@ -1,0 +1,29 @@
+**Introducción**
+1.- Descargar Python desde su pagina oficial
+2.- Descargar extensión Python validada por Microsoft para Visual Code
+3.- Crear carpeta en equipo para trabajar con archivos
+4.- Los archivos creados con Python tienen extensión .py
+**Variables**
+5.- archivo variables.py
+6.- archivo cast.py
+7.- **para comentar líneas en Python seleccionamos todas las líneas y presionamos ctrl+k+c
+8.- **ningún nombre de variable debe de comenzar con un numero
+9.- **por buena practica se recomienda le uso de guion bajo (_) solo para separar palabras en el nombre de una variable: numero_inicial
+10.- **otra buena practica es no usar palabras reservadas con la función help podemos ver cuales son las palabras reservadas:
+help("keywords")
+11.- **las variables son sensitivas a las mayúsculas y minúsculas
+12.- archivo operadores.py
+13.- archivo print.py
+14.- **diagonal invertida es alt+92
+15.- archivo input.py
+16.- **en operaciones con enteros es importante todo el input donde se va a solicitar y capturar el valor encerrarlo en una función int (entero) para que haga la operación, de lo contrario el sistema lo interpreta como un string y concatenara los valores en lugar de hacer la operación
+**Introducción a Git**
+17.- Descargamos Git desde la pagina oficial para el sistema operativo que tengamos
+18.- En la descarga no modificamos ninguna opción, solo en Select Components marcamos la opción Add sa Git Bash Profile to Windows Terminal
+19.- Instalado Git vamos a la carpeta donde esta instalado, abrimos la carpeta cmd y copiamos la ruta, después en el campo de búsqueda de Windows capturamos Variables de entorno y seleccionamos la opción Editar las variables de entorno del sistema
+20.- Damos clic en el botón Variables de entorno
+21.- en la siguiente ventada en la parte inferior en Variables de Sistema buscamos en la lista Path y damos doble clic
+22.- damos clic en el botón Nuevo y pegamos la ruta que copiamos de la carpeta cmd de Git: C:\Program Files\Git\cmd damos clic en el botón Aceptar en todas las ventanas para cerrarlas
+23.- abrimos la termina del Windows con cmd para validar que tengamos instalado Git correctamente tecleando el comando: git+intro (*** si no nos aparecen los comandos de Git es probable que solo necesitemos reiniciar nuestra pc) 
+24.- Iniciar repositorio, en la carpeta del proyecto en el que estemos desde Visual Code nos vamos a la terminal de Visual y escribimos el comando: git init
+25.- 
